@@ -1,0 +1,108 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "obterFeriados",
+        "importPath": "functions.obterFeriados",
+        "description": "functions.obterFeriados",
+        "isExtraImport": true,
+        "detail": "functions.obterFeriados",
+        "documentation": {}
+    },
+    {
+        "label": "obterDiasUteis",
+        "importPath": "functions.obterDiasUteis",
+        "description": "functions.obterDiasUteis",
+        "isExtraImport": true,
+        "detail": "functions.obterDiasUteis",
+        "documentation": {}
+    },
+    {
+        "label": "obterDiasUteis",
+        "kind": 2,
+        "importPath": "functions.obterDiasUteis",
+        "description": "functions.obterDiasUteis",
+        "peekOfCode": "def obterDiasUteis(mes, ano, diasExcluidos):\n    inicio = datetime.date(ano, mes, 1)\n    if mes == 12:\n        fim = datetime.date(ano + 1, 1, 1)\n    else:\n        fim = datetime.date(ano, mes + 1, 1)\n    dias_uteis = 0\n    while inicio < fim:\n        if inicio.weekday() < 5 and inicio not in diasExcluidos:\n            dias_uteis += 1",
+        "detail": "functions.obterDiasUteis",
+        "documentation": {}
+    },
+    {
+        "label": "obterFeriados",
+        "kind": 2,
+        "importPath": "functions.obterFeriados",
+        "description": "functions.obterFeriados",
+        "peekOfCode": "def obterFeriados(ano: int) -> list:\n    api_key = \"kkep07qEKa4x1VxzOtHXq5fyf9RpYhNp\"\n    url = f\"https://calendarific.com/api/v2/holidays?&api_key={api_key}&country=BR&year={ano}\"\n    response = requests.get(url)\n    data = response.json()\n    feriados = []\n    for holiday in data['response']['holidays']:\n        date_str = holiday['date']['iso'].split('T')[0]\n        date = datetime.datetime.strptime(date_str, \"%Y-%m-%d\").date()\n        feriados.append(date)",
+        "detail": "functions.obterFeriados",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "kind": 2,
+        "importPath": "utils.limparTerminal",
+        "description": "utils.limparTerminal",
+        "peekOfCode": "def limparTerminal():\n    if os.name == 'nt':\n        os.system('cls')\n# Path: utils/limparTerminal.py",
+        "detail": "utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "mes",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "mes = str(input(\"Digite o mês (MM): \"))\nano = int(input(\"Digite o ano (YYYY): \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "ano",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "ano = int(input(\"Digite o ano (YYYY): \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "feriados",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "feriados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "diasUteis",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "diasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    }
+]
