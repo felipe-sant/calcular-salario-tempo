@@ -43,6 +43,38 @@
         "documentation": {}
     },
     {
+        "label": "limparTerminal",
+        "importPath": "utils.limparTerminal",
+        "description": "utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "obterDiasUteis",
         "kind": 2,
         "importPath": "functions.obterDiasUteis",
@@ -61,6 +93,762 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_negrito",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito(texto):\n    return f\"\\033[1m{texto}\\033[0m\"\ndef formatarTexto_italico(texto):\n    return f\"\\033[3m{texto}\\033[0m\"\ndef formatarTexto_sublinhado(texto):\n    return f\"\\033[4m{texto}\\033[0m\"\ndef formatarTexto_tachado(texto):\n    return f\"\\033[9m{texto}\\033[0m\"\ndef formatarTexto_amarelo(texto):\n    return f\"\\033[33m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico(texto):\n    return f\"\\033[3m{texto}\\033[0m\"\ndef formatarTexto_sublinhado(texto):\n    return f\"\\033[4m{texto}\\033[0m\"\ndef formatarTexto_tachado(texto):\n    return f\"\\033[9m{texto}\\033[0m\"\ndef formatarTexto_amarelo(texto):\n    return f\"\\033[33m{texto}\\033[0m\"\ndef formatarTexto_azul(texto):\n    return f\"\\033[34m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado(texto):\n    return f\"\\033[4m{texto}\\033[0m\"\ndef formatarTexto_tachado(texto):\n    return f\"\\033[9m{texto}\\033[0m\"\ndef formatarTexto_amarelo(texto):\n    return f\"\\033[33m{texto}\\033[0m\"\ndef formatarTexto_azul(texto):\n    return f\"\\033[34m{texto}\\033[0m\"\ndef formatarTexto_verde(texto):\n    return f\"\\033[32m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado(texto):\n    return f\"\\033[9m{texto}\\033[0m\"\ndef formatarTexto_amarelo(texto):\n    return f\"\\033[33m{texto}\\033[0m\"\ndef formatarTexto_azul(texto):\n    return f\"\\033[34m{texto}\\033[0m\"\ndef formatarTexto_verde(texto):\n    return f\"\\033[32m{texto}\\033[0m\"\ndef formatarTexto_vermelho(texto):\n    return f\"\\033[31m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_amarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_amarelo(texto):\n    return f\"\\033[33m{texto}\\033[0m\"\ndef formatarTexto_azul(texto):\n    return f\"\\033[34m{texto}\\033[0m\"\ndef formatarTexto_verde(texto):\n    return f\"\\033[32m{texto}\\033[0m\"\ndef formatarTexto_vermelho(texto):\n    return f\"\\033[31m{texto}\\033[0m\"\ndef formatarTexto_ciano(texto):\n    return f\"\\033[36m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_azul(texto):\n    return f\"\\033[34m{texto}\\033[0m\"\ndef formatarTexto_verde(texto):\n    return f\"\\033[32m{texto}\\033[0m\"\ndef formatarTexto_vermelho(texto):\n    return f\"\\033[31m{texto}\\033[0m\"\ndef formatarTexto_ciano(texto):\n    return f\"\\033[36m{texto}\\033[0m\"\ndef formatarTexto_magenta(texto):\n    return f\"\\033[35m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_verde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_verde(texto):\n    return f\"\\033[32m{texto}\\033[0m\"\ndef formatarTexto_vermelho(texto):\n    return f\"\\033[31m{texto}\\033[0m\"\ndef formatarTexto_ciano(texto):\n    return f\"\\033[36m{texto}\\033[0m\"\ndef formatarTexto_magenta(texto):\n    return f\"\\033[35m{texto}\\033[0m\"\ndef formatarTexto_branco(texto):\n    return f\"\\033[37m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_vermelho(texto):\n    return f\"\\033[31m{texto}\\033[0m\"\ndef formatarTexto_ciano(texto):\n    return f\"\\033[36m{texto}\\033[0m\"\ndef formatarTexto_magenta(texto):\n    return f\"\\033[35m{texto}\\033[0m\"\ndef formatarTexto_branco(texto):\n    return f\"\\033[37m{texto}\\033[0m\"\ndef formatarTexto_preto(texto):\n    return f\"\\033[30m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_ciano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_ciano(texto):\n    return f\"\\033[36m{texto}\\033[0m\"\ndef formatarTexto_magenta(texto):\n    return f\"\\033[35m{texto}\\033[0m\"\ndef formatarTexto_branco(texto):\n    return f\"\\033[37m{texto}\\033[0m\"\ndef formatarTexto_preto(texto):\n    return f\"\\033[30m{texto}\\033[0m\"\ndef formatarTexto_fundoAmarelo(texto):\n    return f\"\\033[43m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_magenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_magenta(texto):\n    return f\"\\033[35m{texto}\\033[0m\"\ndef formatarTexto_branco(texto):\n    return f\"\\033[37m{texto}\\033[0m\"\ndef formatarTexto_preto(texto):\n    return f\"\\033[30m{texto}\\033[0m\"\ndef formatarTexto_fundoAmarelo(texto):\n    return f\"\\033[43m{texto}\\033[0m\"\ndef formatarTexto_fundoAzul(texto):\n    return f\"\\033[44m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_branco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_branco(texto):\n    return f\"\\033[37m{texto}\\033[0m\"\ndef formatarTexto_preto(texto):\n    return f\"\\033[30m{texto}\\033[0m\"\ndef formatarTexto_fundoAmarelo(texto):\n    return f\"\\033[43m{texto}\\033[0m\"\ndef formatarTexto_fundoAzul(texto):\n    return f\"\\033[44m{texto}\\033[0m\"\ndef formatarTexto_fundoVerde(texto):\n    return f\"\\033[42m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_preto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_preto(texto):\n    return f\"\\033[30m{texto}\\033[0m\"\ndef formatarTexto_fundoAmarelo(texto):\n    return f\"\\033[43m{texto}\\033[0m\"\ndef formatarTexto_fundoAzul(texto):\n    return f\"\\033[44m{texto}\\033[0m\"\ndef formatarTexto_fundoVerde(texto):\n    return f\"\\033[42m{texto}\\033[0m\"\ndef formatarTexto_fundoVermelho(texto):\n    return f\"\\033[41m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoAmarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoAmarelo(texto):\n    return f\"\\033[43m{texto}\\033[0m\"\ndef formatarTexto_fundoAzul(texto):\n    return f\"\\033[44m{texto}\\033[0m\"\ndef formatarTexto_fundoVerde(texto):\n    return f\"\\033[42m{texto}\\033[0m\"\ndef formatarTexto_fundoVermelho(texto):\n    return f\"\\033[41m{texto}\\033[0m\"\ndef formatarTexto_fundoCiano(texto):\n    return f\"\\033[46m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoAzul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoAzul(texto):\n    return f\"\\033[44m{texto}\\033[0m\"\ndef formatarTexto_fundoVerde(texto):\n    return f\"\\033[42m{texto}\\033[0m\"\ndef formatarTexto_fundoVermelho(texto):\n    return f\"\\033[41m{texto}\\033[0m\"\ndef formatarTexto_fundoCiano(texto):\n    return f\"\\033[46m{texto}\\033[0m\"\ndef formatarTexto_fundoMagenta(texto):\n    return f\"\\033[45m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoVerde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoVerde(texto):\n    return f\"\\033[42m{texto}\\033[0m\"\ndef formatarTexto_fundoVermelho(texto):\n    return f\"\\033[41m{texto}\\033[0m\"\ndef formatarTexto_fundoCiano(texto):\n    return f\"\\033[46m{texto}\\033[0m\"\ndef formatarTexto_fundoMagenta(texto):\n    return f\"\\033[45m{texto}\\033[0m\"\ndef formatarTexto_fundoBranco(texto):\n    return f\"\\033[47m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoVermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoVermelho(texto):\n    return f\"\\033[41m{texto}\\033[0m\"\ndef formatarTexto_fundoCiano(texto):\n    return f\"\\033[46m{texto}\\033[0m\"\ndef formatarTexto_fundoMagenta(texto):\n    return f\"\\033[45m{texto}\\033[0m\"\ndef formatarTexto_fundoBranco(texto):\n    return f\"\\033[47m{texto}\\033[0m\"\ndef formatarTexto_fundoPreto(texto):\n    return f\"\\033[40m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoCiano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoCiano(texto):\n    return f\"\\033[46m{texto}\\033[0m\"\ndef formatarTexto_fundoMagenta(texto):\n    return f\"\\033[45m{texto}\\033[0m\"\ndef formatarTexto_fundoBranco(texto):\n    return f\"\\033[47m{texto}\\033[0m\"\ndef formatarTexto_fundoPreto(texto):\n    return f\"\\033[40m{texto}\\033[0m\"\ndef formatarTexto_negrito_amarelo(texto):\n    return f\"\\033[1;33m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoMagenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoMagenta(texto):\n    return f\"\\033[45m{texto}\\033[0m\"\ndef formatarTexto_fundoBranco(texto):\n    return f\"\\033[47m{texto}\\033[0m\"\ndef formatarTexto_fundoPreto(texto):\n    return f\"\\033[40m{texto}\\033[0m\"\ndef formatarTexto_negrito_amarelo(texto):\n    return f\"\\033[1;33m{texto}\\033[0m\"\ndef formatarTexto_negrito_azul(texto):\n    return f\"\\033[1;34m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoBranco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoBranco(texto):\n    return f\"\\033[47m{texto}\\033[0m\"\ndef formatarTexto_fundoPreto(texto):\n    return f\"\\033[40m{texto}\\033[0m\"\ndef formatarTexto_negrito_amarelo(texto):\n    return f\"\\033[1;33m{texto}\\033[0m\"\ndef formatarTexto_negrito_azul(texto):\n    return f\"\\033[1;34m{texto}\\033[0m\"\ndef formatarTexto_negrito_verde(texto):\n    return f\"\\033[1;32m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_fundoPreto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_fundoPreto(texto):\n    return f\"\\033[40m{texto}\\033[0m\"\ndef formatarTexto_negrito_amarelo(texto):\n    return f\"\\033[1;33m{texto}\\033[0m\"\ndef formatarTexto_negrito_azul(texto):\n    return f\"\\033[1;34m{texto}\\033[0m\"\ndef formatarTexto_negrito_verde(texto):\n    return f\"\\033[1;32m{texto}\\033[0m\"\ndef formatarTexto_negrito_vermelho(texto):\n    return f\"\\033[1;31m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_amarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_amarelo(texto):\n    return f\"\\033[1;33m{texto}\\033[0m\"\ndef formatarTexto_negrito_azul(texto):\n    return f\"\\033[1;34m{texto}\\033[0m\"\ndef formatarTexto_negrito_verde(texto):\n    return f\"\\033[1;32m{texto}\\033[0m\"\ndef formatarTexto_negrito_vermelho(texto):\n    return f\"\\033[1;31m{texto}\\033[0m\"\ndef formatarTexto_negrito_ciano(texto):\n    return f\"\\033[1;36m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_azul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_azul(texto):\n    return f\"\\033[1;34m{texto}\\033[0m\"\ndef formatarTexto_negrito_verde(texto):\n    return f\"\\033[1;32m{texto}\\033[0m\"\ndef formatarTexto_negrito_vermelho(texto):\n    return f\"\\033[1;31m{texto}\\033[0m\"\ndef formatarTexto_negrito_ciano(texto):\n    return f\"\\033[1;36m{texto}\\033[0m\"\ndef formatarTexto_negrito_magenta(texto):\n    return f\"\\033[1;35m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_verde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_verde(texto):\n    return f\"\\033[1;32m{texto}\\033[0m\"\ndef formatarTexto_negrito_vermelho(texto):\n    return f\"\\033[1;31m{texto}\\033[0m\"\ndef formatarTexto_negrito_ciano(texto):\n    return f\"\\033[1;36m{texto}\\033[0m\"\ndef formatarTexto_negrito_magenta(texto):\n    return f\"\\033[1;35m{texto}\\033[0m\"\ndef formatarTexto_negrito_branco(texto):\n    return f\"\\033[1;37m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_vermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_vermelho(texto):\n    return f\"\\033[1;31m{texto}\\033[0m\"\ndef formatarTexto_negrito_ciano(texto):\n    return f\"\\033[1;36m{texto}\\033[0m\"\ndef formatarTexto_negrito_magenta(texto):\n    return f\"\\033[1;35m{texto}\\033[0m\"\ndef formatarTexto_negrito_branco(texto):\n    return f\"\\033[1;37m{texto}\\033[0m\"\ndef formatarTexto_negrito_preto(texto):\n    return f\"\\033[1;30m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_ciano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_ciano(texto):\n    return f\"\\033[1;36m{texto}\\033[0m\"\ndef formatarTexto_negrito_magenta(texto):\n    return f\"\\033[1;35m{texto}\\033[0m\"\ndef formatarTexto_negrito_branco(texto):\n    return f\"\\033[1;37m{texto}\\033[0m\"\ndef formatarTexto_negrito_preto(texto):\n    return f\"\\033[1;30m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAmarelo(texto):\n    return f\"\\033[1;43m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_magenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_magenta(texto):\n    return f\"\\033[1;35m{texto}\\033[0m\"\ndef formatarTexto_negrito_branco(texto):\n    return f\"\\033[1;37m{texto}\\033[0m\"\ndef formatarTexto_negrito_preto(texto):\n    return f\"\\033[1;30m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAmarelo(texto):\n    return f\"\\033[1;43m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAzul(texto):\n    return f\"\\033[1;44m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_branco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_branco(texto):\n    return f\"\\033[1;37m{texto}\\033[0m\"\ndef formatarTexto_negrito_preto(texto):\n    return f\"\\033[1;30m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAmarelo(texto):\n    return f\"\\033[1;43m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAzul(texto):\n    return f\"\\033[1;44m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVerde(texto):\n    return f\"\\033[1;42m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_preto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_preto(texto):\n    return f\"\\033[1;30m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAmarelo(texto):\n    return f\"\\033[1;43m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAzul(texto):\n    return f\"\\033[1;44m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVerde(texto):\n    return f\"\\033[1;42m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVermelho(texto):\n    return f\"\\033[1;41m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoAmarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoAmarelo(texto):\n    return f\"\\033[1;43m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoAzul(texto):\n    return f\"\\033[1;44m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVerde(texto):\n    return f\"\\033[1;42m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVermelho(texto):\n    return f\"\\033[1;41m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoCiano(texto):\n    return f\"\\033[1;46m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoAzul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoAzul(texto):\n    return f\"\\033[1;44m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVerde(texto):\n    return f\"\\033[1;42m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVermelho(texto):\n    return f\"\\033[1;41m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoCiano(texto):\n    return f\"\\033[1;46m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoMagenta(texto):\n    return f\"\\033[1;45m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoVerde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoVerde(texto):\n    return f\"\\033[1;42m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoVermelho(texto):\n    return f\"\\033[1;41m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoCiano(texto):\n    return f\"\\033[1;46m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoMagenta(texto):\n    return f\"\\033[1;45m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoBranco(texto):\n    return f\"\\033[1;47m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoVermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoVermelho(texto):\n    return f\"\\033[1;41m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoCiano(texto):\n    return f\"\\033[1;46m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoMagenta(texto):\n    return f\"\\033[1;45m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoBranco(texto):\n    return f\"\\033[1;47m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoPreto(texto):\n    return f\"\\033[1;40m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoCiano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoCiano(texto):\n    return f\"\\033[1;46m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoMagenta(texto):\n    return f\"\\033[1;45m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoBranco(texto):\n    return f\"\\033[1;47m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoPreto(texto):\n    return f\"\\033[1;40m{texto}\\033[0m\"\ndef formatarTexto_italico_amarelo(texto):\n    return f\"\\033[3;33m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoMagenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoMagenta(texto):\n    return f\"\\033[1;45m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoBranco(texto):\n    return f\"\\033[1;47m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoPreto(texto):\n    return f\"\\033[1;40m{texto}\\033[0m\"\ndef formatarTexto_italico_amarelo(texto):\n    return f\"\\033[3;33m{texto}\\033[0m\"\ndef formatarTexto_italico_azul(texto):\n    return f\"\\033[3;34m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoBranco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoBranco(texto):\n    return f\"\\033[1;47m{texto}\\033[0m\"\ndef formatarTexto_negrito_fundoPreto(texto):\n    return f\"\\033[1;40m{texto}\\033[0m\"\ndef formatarTexto_italico_amarelo(texto):\n    return f\"\\033[3;33m{texto}\\033[0m\"\ndef formatarTexto_italico_azul(texto):\n    return f\"\\033[3;34m{texto}\\033[0m\"\ndef formatarTexto_italico_verde(texto):\n    return f\"\\033[3;32m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito_fundoPreto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_negrito_fundoPreto(texto):\n    return f\"\\033[1;40m{texto}\\033[0m\"\ndef formatarTexto_italico_amarelo(texto):\n    return f\"\\033[3;33m{texto}\\033[0m\"\ndef formatarTexto_italico_azul(texto):\n    return f\"\\033[3;34m{texto}\\033[0m\"\ndef formatarTexto_italico_verde(texto):\n    return f\"\\033[3;32m{texto}\\033[0m\"\ndef formatarTexto_italico_vermelho(texto):\n    return f\"\\033[3;31m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_amarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_amarelo(texto):\n    return f\"\\033[3;33m{texto}\\033[0m\"\ndef formatarTexto_italico_azul(texto):\n    return f\"\\033[3;34m{texto}\\033[0m\"\ndef formatarTexto_italico_verde(texto):\n    return f\"\\033[3;32m{texto}\\033[0m\"\ndef formatarTexto_italico_vermelho(texto):\n    return f\"\\033[3;31m{texto}\\033[0m\"\ndef formatarTexto_italico_ciano(texto):\n    return f\"\\033[3;36m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_azul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_azul(texto):\n    return f\"\\033[3;34m{texto}\\033[0m\"\ndef formatarTexto_italico_verde(texto):\n    return f\"\\033[3;32m{texto}\\033[0m\"\ndef formatarTexto_italico_vermelho(texto):\n    return f\"\\033[3;31m{texto}\\033[0m\"\ndef formatarTexto_italico_ciano(texto):\n    return f\"\\033[3;36m{texto}\\033[0m\"\ndef formatarTexto_italico_magenta(texto):\n    return f\"\\033[3;35m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_verde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_verde(texto):\n    return f\"\\033[3;32m{texto}\\033[0m\"\ndef formatarTexto_italico_vermelho(texto):\n    return f\"\\033[3;31m{texto}\\033[0m\"\ndef formatarTexto_italico_ciano(texto):\n    return f\"\\033[3;36m{texto}\\033[0m\"\ndef formatarTexto_italico_magenta(texto):\n    return f\"\\033[3;35m{texto}\\033[0m\"\ndef formatarTexto_italico_branco(texto):\n    return f\"\\033[3;37m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_vermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_vermelho(texto):\n    return f\"\\033[3;31m{texto}\\033[0m\"\ndef formatarTexto_italico_ciano(texto):\n    return f\"\\033[3;36m{texto}\\033[0m\"\ndef formatarTexto_italico_magenta(texto):\n    return f\"\\033[3;35m{texto}\\033[0m\"\ndef formatarTexto_italico_branco(texto):\n    return f\"\\033[3;37m{texto}\\033[0m\"\ndef formatarTexto_italico_preto(texto):\n    return f\"\\033[3;30m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_ciano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_ciano(texto):\n    return f\"\\033[3;36m{texto}\\033[0m\"\ndef formatarTexto_italico_magenta(texto):\n    return f\"\\033[3;35m{texto}\\033[0m\"\ndef formatarTexto_italico_branco(texto):\n    return f\"\\033[3;37m{texto}\\033[0m\"\ndef formatarTexto_italico_preto(texto):\n    return f\"\\033[3;30m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAmarelo(texto):\n    return f\"\\033[3;43m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_magenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_magenta(texto):\n    return f\"\\033[3;35m{texto}\\033[0m\"\ndef formatarTexto_italico_branco(texto):\n    return f\"\\033[3;37m{texto}\\033[0m\"\ndef formatarTexto_italico_preto(texto):\n    return f\"\\033[3;30m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAmarelo(texto):\n    return f\"\\033[3;43m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAzul(texto):\n    return f\"\\033[3;44m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_branco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_branco(texto):\n    return f\"\\033[3;37m{texto}\\033[0m\"\ndef formatarTexto_italico_preto(texto):\n    return f\"\\033[3;30m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAmarelo(texto):\n    return f\"\\033[3;43m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAzul(texto):\n    return f\"\\033[3;44m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVerde(texto):\n    return f\"\\033[3;42m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_preto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_preto(texto):\n    return f\"\\033[3;30m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAmarelo(texto):\n    return f\"\\033[3;43m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAzul(texto):\n    return f\"\\033[3;44m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVerde(texto):\n    return f\"\\033[3;42m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVermelho(texto):\n    return f\"\\033[3;41m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoAmarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoAmarelo(texto):\n    return f\"\\033[3;43m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoAzul(texto):\n    return f\"\\033[3;44m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVerde(texto):\n    return f\"\\033[3;42m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVermelho(texto):\n    return f\"\\033[3;41m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoCiano(texto):\n    return f\"\\033[3;46m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoAzul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoAzul(texto):\n    return f\"\\033[3;44m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVerde(texto):\n    return f\"\\033[3;42m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVermelho(texto):\n    return f\"\\033[3;41m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoCiano(texto):\n    return f\"\\033[3;46m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoMagenta(texto):\n    return f\"\\033[3;45m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoVerde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoVerde(texto):\n    return f\"\\033[3;42m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoVermelho(texto):\n    return f\"\\033[3;41m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoCiano(texto):\n    return f\"\\033[3;46m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoMagenta(texto):\n    return f\"\\033[3;45m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoBranco(texto):\n    return f\"\\033[3;47m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoVermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoVermelho(texto):\n    return f\"\\033[3;41m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoCiano(texto):\n    return f\"\\033[3;46m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoMagenta(texto):\n    return f\"\\033[3;45m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoBranco(texto):\n    return f\"\\033[3;47m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoPreto(texto):\n    return f\"\\033[3;40m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoCiano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoCiano(texto):\n    return f\"\\033[3;46m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoMagenta(texto):\n    return f\"\\033[3;45m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoBranco(texto):\n    return f\"\\033[3;47m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoPreto(texto):\n    return f\"\\033[3;40m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_amarelo(texto):\n    return f\"\\033[4;33m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoMagenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoMagenta(texto):\n    return f\"\\033[3;45m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoBranco(texto):\n    return f\"\\033[3;47m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoPreto(texto):\n    return f\"\\033[3;40m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_amarelo(texto):\n    return f\"\\033[4;33m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_azul(texto):\n    return f\"\\033[4;34m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoBranco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoBranco(texto):\n    return f\"\\033[3;47m{texto}\\033[0m\"\ndef formatarTexto_italico_fundoPreto(texto):\n    return f\"\\033[3;40m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_amarelo(texto):\n    return f\"\\033[4;33m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_azul(texto):\n    return f\"\\033[4;34m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_verde(texto):\n    return f\"\\033[4;32m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico_fundoPreto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_italico_fundoPreto(texto):\n    return f\"\\033[3;40m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_amarelo(texto):\n    return f\"\\033[4;33m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_azul(texto):\n    return f\"\\033[4;34m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_verde(texto):\n    return f\"\\033[4;32m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_vermelho(texto):\n    return f\"\\033[4;31m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_amarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_amarelo(texto):\n    return f\"\\033[4;33m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_azul(texto):\n    return f\"\\033[4;34m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_verde(texto):\n    return f\"\\033[4;32m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_vermelho(texto):\n    return f\"\\033[4;31m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_ciano(texto):\n    return f\"\\033[4;36m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_azul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_azul(texto):\n    return f\"\\033[4;34m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_verde(texto):\n    return f\"\\033[4;32m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_vermelho(texto):\n    return f\"\\033[4;31m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_ciano(texto):\n    return f\"\\033[4;36m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_magenta(texto):\n    return f\"\\033[4;35m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_verde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_verde(texto):\n    return f\"\\033[4;32m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_vermelho(texto):\n    return f\"\\033[4;31m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_ciano(texto):\n    return f\"\\033[4;36m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_magenta(texto):\n    return f\"\\033[4;35m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_branco(texto):\n    return f\"\\033[4;37m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_vermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_vermelho(texto):\n    return f\"\\033[4;31m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_ciano(texto):\n    return f\"\\033[4;36m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_magenta(texto):\n    return f\"\\033[4;35m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_branco(texto):\n    return f\"\\033[4;37m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_preto(texto):\n    return f\"\\033[4;30m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_ciano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_ciano(texto):\n    return f\"\\033[4;36m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_magenta(texto):\n    return f\"\\033[4;35m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_branco(texto):\n    return f\"\\033[4;37m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_preto(texto):\n    return f\"\\033[4;30m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAmarelo(texto):\n    return f\"\\033[4;43m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_magenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_magenta(texto):\n    return f\"\\033[4;35m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_branco(texto):\n    return f\"\\033[4;37m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_preto(texto):\n    return f\"\\033[4;30m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAmarelo(texto):\n    return f\"\\033[4;43m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAzul(texto):\n    return f\"\\033[4;44m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_branco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_branco(texto):\n    return f\"\\033[4;37m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_preto(texto):\n    return f\"\\033[4;30m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAmarelo(texto):\n    return f\"\\033[4;43m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAzul(texto):\n    return f\"\\033[4;44m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVerde(texto):\n    return f\"\\033[4;42m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_preto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_preto(texto):\n    return f\"\\033[4;30m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAmarelo(texto):\n    return f\"\\033[4;43m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAzul(texto):\n    return f\"\\033[4;44m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVerde(texto):\n    return f\"\\033[4;42m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVermelho(texto):\n    return f\"\\033[4;41m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoAmarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoAmarelo(texto):\n    return f\"\\033[4;43m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoAzul(texto):\n    return f\"\\033[4;44m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVerde(texto):\n    return f\"\\033[4;42m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVermelho(texto):\n    return f\"\\033[4;41m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoCiano(texto):\n    return f\"\\033[4;46m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoAzul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoAzul(texto):\n    return f\"\\033[4;44m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVerde(texto):\n    return f\"\\033[4;42m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVermelho(texto):\n    return f\"\\033[4;41m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoCiano(texto):\n    return f\"\\033[4;46m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoMagenta(texto):\n    return f\"\\033[4;45m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoVerde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoVerde(texto):\n    return f\"\\033[4;42m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoVermelho(texto):\n    return f\"\\033[4;41m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoCiano(texto):\n    return f\"\\033[4;46m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoMagenta(texto):\n    return f\"\\033[4;45m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoBranco(texto):\n    return f\"\\033[4;47m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoVermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoVermelho(texto):\n    return f\"\\033[4;41m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoCiano(texto):\n    return f\"\\033[4;46m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoMagenta(texto):\n    return f\"\\033[4;45m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoBranco(texto):\n    return f\"\\033[4;47m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoPreto(texto):\n    return f\"\\033[4;40m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoCiano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoCiano(texto):\n    return f\"\\033[4;46m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoMagenta(texto):\n    return f\"\\033[4;45m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoBranco(texto):\n    return f\"\\033[4;47m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoPreto(texto):\n    return f\"\\033[4;40m{texto}\\033[0m\"\ndef formatarTexto_tachado_amarelo(texto):\n    return f\"\\033[9;33m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoMagenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoMagenta(texto):\n    return f\"\\033[4;45m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoBranco(texto):\n    return f\"\\033[4;47m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoPreto(texto):\n    return f\"\\033[4;40m{texto}\\033[0m\"\ndef formatarTexto_tachado_amarelo(texto):\n    return f\"\\033[9;33m{texto}\\033[0m\"\ndef formatarTexto_tachado_azul(texto):\n    return f\"\\033[9;34m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoBranco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoBranco(texto):\n    return f\"\\033[4;47m{texto}\\033[0m\"\ndef formatarTexto_sublinhado_fundoPreto(texto):\n    return f\"\\033[4;40m{texto}\\033[0m\"\ndef formatarTexto_tachado_amarelo(texto):\n    return f\"\\033[9;33m{texto}\\033[0m\"\ndef formatarTexto_tachado_azul(texto):\n    return f\"\\033[9;34m{texto}\\033[0m\"\ndef formatarTexto_tachado_verde(texto):\n    return f\"\\033[9;32m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_sublinhado_fundoPreto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_sublinhado_fundoPreto(texto):\n    return f\"\\033[4;40m{texto}\\033[0m\"\ndef formatarTexto_tachado_amarelo(texto):\n    return f\"\\033[9;33m{texto}\\033[0m\"\ndef formatarTexto_tachado_azul(texto):\n    return f\"\\033[9;34m{texto}\\033[0m\"\ndef formatarTexto_tachado_verde(texto):\n    return f\"\\033[9;32m{texto}\\033[0m\"\ndef formatarTexto_tachado_vermelho(texto):\n    return f\"\\033[9;31m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_amarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_amarelo(texto):\n    return f\"\\033[9;33m{texto}\\033[0m\"\ndef formatarTexto_tachado_azul(texto):\n    return f\"\\033[9;34m{texto}\\033[0m\"\ndef formatarTexto_tachado_verde(texto):\n    return f\"\\033[9;32m{texto}\\033[0m\"\ndef formatarTexto_tachado_vermelho(texto):\n    return f\"\\033[9;31m{texto}\\033[0m\"\ndef formatarTexto_tachado_ciano(texto):\n    return f\"\\033[9;36m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_azul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_azul(texto):\n    return f\"\\033[9;34m{texto}\\033[0m\"\ndef formatarTexto_tachado_verde(texto):\n    return f\"\\033[9;32m{texto}\\033[0m\"\ndef formatarTexto_tachado_vermelho(texto):\n    return f\"\\033[9;31m{texto}\\033[0m\"\ndef formatarTexto_tachado_ciano(texto):\n    return f\"\\033[9;36m{texto}\\033[0m\"\ndef formatarTexto_tachado_magenta(texto):\n    return f\"\\033[9;35m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_verde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_verde(texto):\n    return f\"\\033[9;32m{texto}\\033[0m\"\ndef formatarTexto_tachado_vermelho(texto):\n    return f\"\\033[9;31m{texto}\\033[0m\"\ndef formatarTexto_tachado_ciano(texto):\n    return f\"\\033[9;36m{texto}\\033[0m\"\ndef formatarTexto_tachado_magenta(texto):\n    return f\"\\033[9;35m{texto}\\033[0m\"\ndef formatarTexto_tachado_branco(texto):\n    return f\"\\033[9;37m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_vermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_vermelho(texto):\n    return f\"\\033[9;31m{texto}\\033[0m\"\ndef formatarTexto_tachado_ciano(texto):\n    return f\"\\033[9;36m{texto}\\033[0m\"\ndef formatarTexto_tachado_magenta(texto):\n    return f\"\\033[9;35m{texto}\\033[0m\"\ndef formatarTexto_tachado_branco(texto):\n    return f\"\\033[9;37m{texto}\\033[0m\"\ndef formatarTexto_tachado_preto(texto):\n    return f\"\\033[9;30m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_ciano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_ciano(texto):\n    return f\"\\033[9;36m{texto}\\033[0m\"\ndef formatarTexto_tachado_magenta(texto):\n    return f\"\\033[9;35m{texto}\\033[0m\"\ndef formatarTexto_tachado_branco(texto):\n    return f\"\\033[9;37m{texto}\\033[0m\"\ndef formatarTexto_tachado_preto(texto):\n    return f\"\\033[9;30m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAmarelo(texto):\n    return f\"\\033[9;43m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_magenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_magenta(texto):\n    return f\"\\033[9;35m{texto}\\033[0m\"\ndef formatarTexto_tachado_branco(texto):\n    return f\"\\033[9;37m{texto}\\033[0m\"\ndef formatarTexto_tachado_preto(texto):\n    return f\"\\033[9;30m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAmarelo(texto):\n    return f\"\\033[9;43m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAzul(texto):\n    return f\"\\033[9;44m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_branco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_branco(texto):\n    return f\"\\033[9;37m{texto}\\033[0m\"\ndef formatarTexto_tachado_preto(texto):\n    return f\"\\033[9;30m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAmarelo(texto):\n    return f\"\\033[9;43m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAzul(texto):\n    return f\"\\033[9;44m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVerde(texto):\n    return f\"\\033[9;42m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_preto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_preto(texto):\n    return f\"\\033[9;30m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAmarelo(texto):\n    return f\"\\033[9;43m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAzul(texto):\n    return f\"\\033[9;44m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVerde(texto):\n    return f\"\\033[9;42m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVermelho(texto):\n    return f\"\\033[9;41m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoAmarelo",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoAmarelo(texto):\n    return f\"\\033[9;43m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoAzul(texto):\n    return f\"\\033[9;44m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVerde(texto):\n    return f\"\\033[9;42m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVermelho(texto):\n    return f\"\\033[9;41m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoCiano(texto):\n    return f\"\\033[9;46m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoAzul",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoAzul(texto):\n    return f\"\\033[9;44m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVerde(texto):\n    return f\"\\033[9;42m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVermelho(texto):\n    return f\"\\033[9;41m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoCiano(texto):\n    return f\"\\033[9;46m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoMagenta(texto):\n    return f\"\\033[9;45m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoVerde",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoVerde(texto):\n    return f\"\\033[9;42m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoVermelho(texto):\n    return f\"\\033[9;41m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoCiano(texto):\n    return f\"\\033[9;46m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoMagenta(texto):\n    return f\"\\033[9;45m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoBranco(texto):\n    return f\"\\033[9;47m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoVermelho",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoVermelho(texto):\n    return f\"\\033[9;41m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoCiano(texto):\n    return f\"\\033[9;46m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoMagenta(texto):\n    return f\"\\033[9;45m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoBranco(texto):\n    return f\"\\033[9;47m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoPreto(texto):\n    return f\"\\033[9;40m{texto}\\033[0m\"",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoCiano",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoCiano(texto):\n    return f\"\\033[9;46m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoMagenta(texto):\n    return f\"\\033[9;45m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoBranco(texto):\n    return f\"\\033[9;47m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoPreto(texto):\n    return f\"\\033[9;40m{texto}\\033[0m\"\n# Path: utils/formatarTexto.py",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoMagenta",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoMagenta(texto):\n    return f\"\\033[9;45m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoBranco(texto):\n    return f\"\\033[9;47m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoPreto(texto):\n    return f\"\\033[9;40m{texto}\\033[0m\"\n# Path: utils/formatarTexto.py",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoBranco",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoBranco(texto):\n    return f\"\\033[9;47m{texto}\\033[0m\"\ndef formatarTexto_tachado_fundoPreto(texto):\n    return f\"\\033[9;40m{texto}\\033[0m\"\n# Path: utils/formatarTexto.py",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_tachado_fundoPreto",
+        "kind": 2,
+        "importPath": "utils.formatarTexto",
+        "description": "utils.formatarTexto",
+        "peekOfCode": "def formatarTexto_tachado_fundoPreto(texto):\n    return f\"\\033[9;40m{texto}\\033[0m\"\n# Path: utils/formatarTexto.py",
+        "detail": "utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "limparTerminal",
         "kind": 2,
         "importPath": "utils.limparTerminal",
@@ -70,11 +858,20 @@
         "documentation": {}
     },
     {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "salario = float(input(f\"Digite o seu {formatarTexto_negrito(\"salário:\")} \"))\nmes = int(input(f\"Digite o {formatarTexto_negrito(\"mês\")} {formatarTexto_italico(\"(MM)\")}: \"))\nano = int(input(f\"Digite o {formatarTexto_negrito(\"ano\")} {formatarTexto_italico(\"(YYYY)\")}: \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nsalario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
         "label": "mes",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "mes = str(input(\"Digite o mês (MM): \"))\nano = int(input(\"Digite o ano (YYYY): \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "peekOfCode": "mes = int(input(f\"Digite o {formatarTexto_negrito(\"mês\")} {formatarTexto_italico(\"(MM)\")}: \"))\nano = int(input(f\"Digite o {formatarTexto_negrito(\"ano\")} {formatarTexto_italico(\"(YYYY)\")}: \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nsalario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
         "detail": "index",
         "documentation": {}
     },
@@ -83,7 +880,7 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "ano = int(input(\"Digite o ano (YYYY): \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "peekOfCode": "ano = int(input(f\"Digite o {formatarTexto_negrito(\"ano\")} {formatarTexto_italico(\"(YYYY)\")}: \"))\nferiados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nsalario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
         "detail": "index",
         "documentation": {}
     },
@@ -92,7 +889,7 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "feriados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "peekOfCode": "feriados = obterFeriados(ano)\ndiasUteis = obterDiasUteis(mes, ano, feriados)\nsalario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
         "detail": "index",
         "documentation": {}
     },
@@ -101,7 +898,16 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "diasUteis = obterDiasUteis(mes, ano, feriados)\nlimparTerminal()",
+        "peekOfCode": "diasUteis = obterDiasUteis(mes, ano, feriados)\nsalario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "salario_por_dia",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "salario_por_dia = round((salario / diasUteis), 2)\nprint(\"\\nDias úteis no mês:\", formatarTexto_azul(diasUteis))\nprint(\"Salário por dia:\", formatarTexto_azul(salario_por_dia))\ninput()\nlimparTerminal()",
         "detail": "index",
         "documentation": {}
     }
